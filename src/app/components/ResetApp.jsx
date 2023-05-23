@@ -1,11 +1,9 @@
 import React from 'react'
-import { resetCounter } from '../../redux/slice/counterSlice';
 import { resetDestination } from '../../redux/slice/destinationSlice';
 import { useDispatch } from 'react-redux';
 function ResetApp() {
   const dispatch = useDispatch();
   const resetCounterDestination = ()=> {
-    dispatch(resetCounter());
     dispatch(resetDestination());
   }
   return (
