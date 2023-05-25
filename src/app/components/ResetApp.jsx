@@ -1,5 +1,4 @@
 import React from 'react'
-import { resetDestination } from '../../redux/slice/destinationSlice';
 import { resetReduxopedia } from '../../redux/action/actions';
 import { useDispatch } from 'react-redux';
 function ResetApp() {
